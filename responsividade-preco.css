@@ -1,0 +1,224 @@
+@media screen and (max-width: 769px) and (min-width: 376px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    
+    /*RESPONSIVIDADE HEADER*/    
+    header {    
+        display: grid;
+        grid-template-columns: 384px 384px;
+    }
+
+    .img-logo {
+        margin-left: 25px;
+    }
+
+    .ul-menu {
+        margin-right: 45%;
+    }
+
+    .comeceAgendar > button {
+        margin-left: 150px;
+    }
+
+
+
+    /*RESPONSIVIDADE SECTION 1*/
+    .container-conteudo {
+        padding-inline: 25px;
+        width: 90%;
+    }
+
+    .container-seletor {
+        margin: 0;
+        margin-left: 210px;
+    }
+
+    .container-cards {
+        margin: 0 auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: space-between;
+    }
+
+    .last {
+        width: 600px;
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    .last hr {
+        width: 550px;
+    }
+
+
+    /*RESPONSIVIDADE FOOTER*/
+
+    footer{
+        position: relative;
+        top: 400px;
+        height: 200px;
+        display: grid;
+        grid-template-rows: 25px 1fr 1fr;
+        margin-bottom: 0px;
+    }
+
+    .container-footer {
+        display: grid;
+        margin-left: 25px;
+        grid-template-columns: 180px 180px 180px;
+    }
+
+    footer div ul {
+        margin-top: 45px;
+    }
+
+    footer div ul li a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #425466;
+        font-size: 1em;
+    }
+
+    .container-input {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        
+    }
+}
+
+@media screen and (max-width: 375px) and (min-width: 0px) {
+    
+    body {
+        overflow-x: hidden;
+    }    
+    
+    /*RESPONSIVIDADE HEADER*/    
+    header {    
+        display: block;
+    }
+
+    .img-logo {
+        margin-left: 35px;
+        margin-top: 35px;
+        width: 50px;
+    }
+
+    .ul-menu {
+        display: none;
+    }
+
+    .comeceAgendar {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline;
+        margin-left: 70%;
+        width: 35px;
+    }
+
+
+
+    /*RESPONSIVIDADE SECTION 1*/
+    .container-conteudo {
+        padding-inline: 25px;
+        width: 90%;
+    }
+
+    .container-conteudo h1 {
+        margin-top: 80px;
+        font-size: 3em;
+    }
+
+    .container-conteudo p {
+        margin-top: 25px;
+        color: #425466;
+        font-size: 2em;
+    }
+
+    .container-seletor {        
+        margin: 0;
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+
+    .container-cards {
+        margin-top: 300px;
+        width: 90%;
+        display: block;
+    }
+
+    .card {
+        margin-inline: auto;
+        margin-bottom: 50px;
+        width: 400px;
+    }
+
+
+    /*RESPONSIVIDADE FOOTER*/
+
+    footer{
+        position: relative;
+        top: 1100px;
+        height: 200px;
+        display: grid;
+        grid-template-rows: 25px 1fr 1fr;
+        margin-bottom: 0px;
+    }
+
+    .container-footer {
+        display: grid;
+        margin-left: 25px;
+        grid-template-columns: 180px 180px 180px;
+    }
+
+    footer div ul {
+        margin-top: 45px;
+    }
+
+    footer div ul li a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #425466;
+        font-size: 1em;
+    }
+
+    .container-input {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        
+    }
+}
+
+.menu-linha {
+    display: inline;
+    position: relative;
+    top: 35px;
+}
+
+.menu-linha a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 3em;
+    margin-left: 35px;
+}
+
+
+.menu-hide {
+    display: none;   
+ }
+
+.menu-show {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 475px;
+    height: 150px;
+    background: #46CCDE;
+}

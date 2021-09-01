@@ -1,0 +1,380 @@
+@media screen and (max-width: 769px) and (min-width: 376px) {
+
+    
+    /*RESPONSIVIDADE HEADER*/    
+    header {    
+        display: grid;
+        grid-template-columns: 384px 384px;
+    }
+
+    .img-logo {
+        margin-left: 25px;
+    }
+
+    .ul-menu {
+        margin-right: 45%;
+    }
+
+    .comeceAgendar > button {
+        margin-left: 150px;
+    }
+
+
+
+    /*RESPONSIVIDADE SECTION 1*/
+    .c1 {
+        display: grid;
+        grid-template-columns: 384px 384px;    
+    }
+
+    .container-texto1 {
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .container-texto1 > a {
+        margin-left: 0px;
+        padding: 0;
+    }    
+
+    .c1 div h1 {
+        font-size: 1.8em;
+    }
+
+    .c1 div p {
+        margin-top: 15px;
+        font-size: 0.7em;
+    }
+    
+    .c1 div button {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .img-shield {
+        margin-top: 15px;
+        float: left;
+    }
+
+    .shield-text {
+        margin-left: 5px;
+        display: block;
+    }
+    
+    .link-shield {
+        position: absolute;
+        left: 10px;
+        top: 440px;
+    }
+
+    .img-mockup {
+        padding-top: 45px;
+    }
+
+    .img-mockup img {
+        width: 80%;
+    }
+
+    /*RESPONSIVIDADE SECTION 2*/
+    .c2 {
+        display: grid;
+        grid-template-columns: 384px 384px;  
+        height: 300px;
+        align-items: center;
+    }
+
+    .container-texto2 {
+        padding-left: 25px;
+    }
+
+    .img-mini {
+        width: 30px;
+        margin-left: 5px;
+    }
+
+    .c2 div p {
+        font-size: 0.7em;
+    }
+
+    .container-texto3 {
+        margin-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*RESPONSIVIDADE SECTION 3*/
+    .c3 {
+        display: grid;
+        grid-template-columns: 384px 384px;
+        padding-top: 15px;
+    }
+
+    .container-texto4 {
+        padding-left: 25px;
+    }
+    
+    .container-texto5 {
+        margin-left: 15px;
+    }
+
+    .titulo-painel {
+        font-size: 1.5em;
+    }
+    
+    .c3 div p {
+        margin-top: 25px;
+        font-size: 0.8em;
+        padding-right: 15px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .c3 div a {
+        margin-left: 0px;
+    }
+
+
+    /*RESPONSIVIDADE FOOTER*/
+    footer{
+        display: grid;
+        grid-template-rows: 25px 1fr 1fr;
+        margin-bottom: 0px;
+    }
+
+    .container-footer {
+        display: grid;
+        margin-left: 25px;
+        grid-template-columns: 200px 200px 200px;
+    }
+
+    .container-input {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        
+    }
+
+}
+
+@media screen and (max-width: 375px) and (min-width: 0px) {
+    
+    /*RESPONSIVIDADE HEADER*/       
+    header {    
+        display: block;
+    }
+
+    .img-logo {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 50px;
+    }
+
+    .ul-menu {
+        display: none;
+    }
+
+    .comeceAgendar {
+        display: none;
+    }
+
+    .hamburger {
+        display: inline;
+        margin-left: 70%;
+        width: 35px;
+    }
+
+
+
+    /*RESPONSIVIDADE SECTION 1*/
+    .c1 {
+        display: block;   
+    }
+
+    .container-texto1 {
+        height: 520px;
+        padding-left: 25px;
+        padding-top: 25px;
+    }
+
+    .container-texto1 > a {
+        margin-left: 25px;
+        font-size: 1.8em;
+        padding: 0;
+    }    
+
+    .c1 div h1 {
+        font-size: 3em;
+    }
+
+    .texto-c1 {
+        margin-top: 15px;
+        font-size: 1.3em;
+    }
+    
+    .c1 div button {
+        height: 75px;
+        font-size: 2em;
+        display: inline;
+        margin-bottom: 15px;
+    }
+
+    .img-shield {
+        width: 30px;
+        margin-top: 30px;
+        float: left;
+    }
+
+    .shield-text {
+        margin-left: 15px;
+        line-height: 45px;
+    }    
+    
+    .link-shield {
+        position: absolute;
+        font-size: 1.5em;
+        left: 60px;
+        top: 600px;
+    }
+
+    .img-mockup {
+        padding-top: 45px;
+    }
+
+    .img-mockup img {
+        width: 80%;
+    }
+
+
+    /*RESPONSIVIDADE SECTION 2*/
+    .c2 {
+        display: block; 
+        height: 800px;
+        align-items: center;
+    }
+
+    .container-texto2 {
+        margin-top: 25px;
+        padding-left: 25px;
+        text-align: center;
+    }
+
+    .container-texto2 h1 {
+        font-size: 3em;
+    }
+
+    .img-mini {
+        width: 60px;
+        margin-left: 5px;
+    }
+
+    .c2 div p {
+        font-size: 2em;
+    }
+
+    .container-texto3 {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 40px;
+        padding-right: 25px;
+    }
+
+
+
+    /*RESPONSIVIDADE SECTION 3*/
+    .c3 {
+        display: block;
+        padding-top: 35px;
+        height: 1000px;
+    }
+
+    .container-texto4 {
+        padding-left: 25px;
+    }
+    
+    .container-texto5 {
+        margin-left: 15px;
+    }
+
+    .titulo-painel {
+        font-size: 3em;
+    }
+
+    .titulo {
+        font-size: 1.7em;
+    }
+    
+    .c3 div p {
+        margin-top: 25px;
+        font-size: 1.5em;
+        padding-right: 15px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    .c3 div a {
+        margin-left: 0px;
+        font-size: 1.5em;
+    }
+
+
+    /*RESPONSIVIDADE FOOTER*/
+
+    footer{
+        display: grid;
+        grid-template-rows: 25px 1fr 1fr;
+        margin-bottom: 0px;
+    }
+
+    .container-footer {
+        display: grid;
+        margin-left: 25px;
+        grid-template-columns: 180px 180px 180px;
+    }
+
+    footer div ul {
+        margin-top: 45px;
+    }
+
+    footer div ul li a {
+        text-decoration: none;
+        font-weight: normal;
+        color: #425466;
+        font-size: 1.5em;
+    }
+
+    .container-input {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-bottom: 15px;
+        
+    }
+
+}
+
+.menu-linha {
+    display: inline;
+    position: relative;
+    top: 35px;
+}
+
+.menu-linha a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 3em;
+    margin-left: 35px;
+}
+
+
+.menu-hide {
+    display: none;   
+ }
+
+.menu-show {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 450px;
+    height: 110px;
+    background: #46CCDE;
+}
+
